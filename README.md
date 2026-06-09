@@ -11,6 +11,8 @@ This project challenges the widely accepted narrative that the 2022-2023 workfor
 
 <img width="972" height="718" alt="TimeLine Chart Screenshot 2026-05-28 at 8 45 18 PM" src="https://github.com/user-attachments/assets/4148d714-a5c5-4fe7-b410-e33d0c3aaaa4" />
 
+Link: https://public.tableau.com/shared/N4R7HNFHR?:display_count=n&:origin=viz_share_link
+
 
 ### Key Findings:
 1. **The Lag Effect:** The data reveals a distinct 3-to-4 month operational lag between the initial, aggressive Federal Funds Rate hikes (early 2022) and the explosion of corporate downsizings. 
@@ -23,6 +25,7 @@ To prove this was not solely a tech-sector event, I analyzed the percentage incr
 
 <img width="1191" height="723" alt="Industry Bar Chart Screenshot 2026-05-30 at 4 05 51 PM" src="https://github.com/user-attachments/assets/a9a4b755-d8cf-40a7-a138-af37d67b61c5" />
 
+Link: https://public.tableau.com/views/Book1_17810341186380/BarChart?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 > ** A Note on Sector Classification:** The massive **3,126% spike** in the "Other" category was investigated by auditing the raw source dataset. This category primarily functioned as a catch-all for **Enterprise Software and B2B SaaS** giants (e.g., Atlassian, Autodesk, Asana). This massive contraction reflects how rapidly corporate clients froze their enterprise software budgets in response to rising borrowing costs, triggering downstream layoffs for B2B vendors.
 
