@@ -35,7 +35,7 @@ This project is powered by a fully custom SQL pipeline built in **MySQL**, utili
 * **Data Cleaning & Standardization:** Handled `NULL` values, standardized text formats using `TRIM()` and `SUBSTRING()`, managed duplicate records using CTEs and `ROW_NUMBER()`, and unified disparate date formats using `STR_TO_DATE()`.
 * **Business Logic & Joins:** Utilized `CASE` statements to segment temporal eras (Low-Cost vs. Tightening cycles) and executed complex `JOIN` operations to merge workforce data with federal interest rate metrics on a rolling `month_year` basis.
 * **Data Visualization:** Exported clean, processed tables into **Tableau** to design dual-axis and comparative bar charts, applying professional contrast formatting to highlight key business narratives.
-* **AI Intergration:** Utilized Generative AI as a pair-prograamming tool to debug SQL syntax, refine formatting, and accelrate documentation drafting, maximizing overall project efficiency..
+* **AI Intergration:** Utilized Generative AI as a pair-programming tool to debug SQL syntax, refine formatting, and accelrate documentation drafting, maximizing overall project efficiency..
 
 ---
 
