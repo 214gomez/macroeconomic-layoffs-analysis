@@ -60,17 +60,16 @@ JOIN layoff_staging2 t2
 SET t1.industry = t2.industry
 WHERE t1.industry IS NULL AND t2.industry IS NOT NULL;
 
--- STEP 2.4: Clean funding anomalies and cast column schemas to proper structural types
+-- STEP 2.4: Clean funding anomalies
 UPDATE layoff_staging2 SET funds_raised_millions = NULL WHERE funds_raised_millions LIKE 'N%';
 
 ALTER TABLE layoff_staging2 MODIFY COLUMN `total_laid_off` INT;
 ALTER TABLE layoff_staging2 MODIFY COLUMN `funds_raised_millions` INT;
 
--- STEP 2.5: Standardize temporal elements from text to native DATE formats
+-- STEP 2.5: Standardize 
 UPDATE layoff_staging2 SET `date` = STR_TO_DATE(`date`, '%m/%d/%Y');
 ALTER TABLE layoff_staging2 MODIFY COLUMN `date` DATE;
 
--- STEP 2.6: Prune uninformative metadata records and operational utility columns
 DELETE FROM layoff_staging2 WHERE total_laid_off IS NULL AND percentage_laid_off IS NULL;
 ALTER TABLE layoff_staging2 DROP COLUMN row_num;
 
