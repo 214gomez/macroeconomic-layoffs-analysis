@@ -7,7 +7,7 @@ An exploratory data analysis (EDA) pipeline correlating global corporate downsiz
 **Project Type:** End-to-End ETL Pipeline & Exploratory Data Analysis (EDA)
 
 ## Executive Summary & Core Insights
-This project challenges the widely accepted narrative that the 2022-2023 workforce contractions were strictly an isolated "tech bubble" bursting. By engineering a multi-source data pipeline, this analysis correlates global corporate layoffs with the Federal Reserve's monetary tightening policies to prove a broader macroeconomic thesis: **The layoff wave was systemic and cross-industry triggered by the rising cost of borrowing.**
+This project challenges the widely accepted narrative that the 2022-2023 workforce contractions were strictly an isolated "tech bubble" bursting. This analysis correlates global corporate layoffs with the Federal Reserve's monetary tightening policies to prove a broader macroeconomic thesis: **The layoff wave was systemic and cross-industry triggered by the rising cost of borrowing.**
 
 <img width="972" height="718" alt="TimeLine Chart Screenshot 2026-05-28 at 8 45 18 PM" src="https://github.com/user-attachments/assets/4148d714-a5c5-4fe7-b410-e33d0c3aaaa4" />
 
